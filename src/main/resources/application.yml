@@ -1,5 +1,5 @@
 #server:
-#port: 8761  # Puerto estándar para Eureka Server
+#  port: 8761
 eureka:
   client:
     register-with-eureka: false  # El propio servidor no se registra
@@ -8,4 +8,4 @@ eureka:
     enable-self-preservation: false  # Desactiva la autopreservación para desarrollo
 spring:
   application:
-    name: eureka-server  # Nombre del servicio de Eureka
+    name: eureka-server
